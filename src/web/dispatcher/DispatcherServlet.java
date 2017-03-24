@@ -72,6 +72,10 @@ public class DispatcherServlet extends HttpServlet {
 			request.setAttribute("center", "highcharts");
 		}else if(view.equals("weather")){
 			request.setAttribute("center", "weather");
+		}else if(view.equals("predict")){
+			request.setAttribute("center", "predict");
+		}else if(view.equals("predict1")){
+			request.setAttribute("center", "predict1");
 		}
 		
 	

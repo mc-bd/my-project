@@ -78,6 +78,9 @@ footer{
 		<a href="main.big?view=rgraph">RGraph</a>
 		<a href="main.big?view=highcharts">HighCharts</a>
 		<a href="main.big?view=weather">Weather</a>
+		<a href="main.big?view=predict">predict</a>
+		<a href="main.big?view=predict1">predict1</a>
+		<a href="main.big?view=predict3">predict3</a>
 	</div>
 	
 	
