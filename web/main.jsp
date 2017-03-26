@@ -81,6 +81,8 @@ footer{
 		<a href="main.big?view=predict">predict</a>
 		<a href="main.big?view=predict1">predict1</a>
 		<a href="main.big?view=predict3">predict3</a>
+		<a href="main.big?view=word">word</a>
+		
 	</div>
 	
 	
