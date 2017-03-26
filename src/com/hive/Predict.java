@@ -10,7 +10,8 @@ public class Predict {
 
 	public double getGraph(int a, int b, int c, int d) throws Exception {
 		rconn = new RConnection();
-		rconn.eval(" source('C:/r_project/new1.R', encoding = 'UTF-8', echo=TRUE)");
+//		rconn.eval(" source('C:/r_project/new1.R', encoding = 'UTF-8', echo=TRUE)");
+		rconn.eval(" source('C:/Users/student/git/tobigdata/src/main/resources/r/new1.R', encoding = 'UTF-8', echo=TRUE)");
 		System.out.println("ok");
 		x1 = rconn.eval("pre1(" + a + "," + b + "," + c + "," + d + ")");
 		
