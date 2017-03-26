@@ -1,6 +1,6 @@
-var clothing = 100;
-var soju = 100;
-var nonrecurring = 100;
+var clothing = 100; // 의류
+var soju = 100; // 주류
+var nonrecurring = 100; // 비경상소득
 
 var totalspend = 0; // 등급
 
