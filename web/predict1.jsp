@@ -4,10 +4,10 @@
     
  <script>
 function predict1(f){
-	var c = confirm("계?");
+	var c = confirm("계산");
 	if(c == true){
 		f.method='POST';
-		f.action='predict2.big';
+		f.action='predict1.big';
 		f.submit();		
 	}
 
@@ -19,13 +19,13 @@ function predict1(f){
 <div>
 <h1>Predict Page</h1>
 <form action="predict1.big"  method="POST">
-소득<input type="text" name="kostat.totalincome" value = "${aa1 }"><br>
-소비지출<input type="text" name="kostat.consumption" value = "${bb1 }"><br>
-비소비지출<input type="text" name="kostat.nonconsumption"value = "${cc1 }"><br>
-흑자액<input type="text" name="kostat.surplus" value = "${dd1 }"><br>
+소득<input type="text" name="totalincome" value = "${aa1 }"><br>
+식비<input type="text" name="food" value = "${bb1 }"><br>
+교통비<input type="text" name="transportation"value = "${cc1 }"><br>
+교육비<input type="text" name="education" value = "${dd1 }"><br>
 
 
-결과값 = ${pre1 }
+총지출액 예측결과  = ${pre1 }
 <input type="hidden" name="result" value = "${pre1 }"><br>
 <input type="button" value="계산하기"
 onclick="predict1(this.form);"><br>

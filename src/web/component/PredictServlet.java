@@ -24,10 +24,10 @@ public class PredictServlet extends HttpServlet {
 	
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		System.out.println("predict1");
-		String aa=request.getParameter("kostat.totalincome");
-		String bb=request.getParameter("kostat.consumption");
-		String cc=request.getParameter("kostat.nonconsumption");
-		String dd=request.getParameter("kostat.surplus");
+		String aa=request.getParameter("totalincome");
+		String bb=request.getParameter("food");
+		String cc=request.getParameter("transportation");
+		String dd=request.getParameter("education");
 		String next="main.jsp";
 		String center="center.jsp";
 		int a=Integer.parseInt(aa);
