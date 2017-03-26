@@ -16,7 +16,20 @@ public class Word {
 		rconn.eval("wr=readBin('wc2.jpg','raw',600*600)");
 		x = rconn.eval("wr");
 		
-
+		
+		
+		int a = 100;
+		int b = 100;
+		int c = 100;
+		
+		int n = 0; // µî±Þ
+		
+		if (a > 158900) {
+			n = 14;
+		} else {
+			
+		}
+		
 		
 		
 		rconn.close();
